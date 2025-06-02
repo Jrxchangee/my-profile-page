@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <div>
+        <label for="fullname">Enter Your Fullname</label>
+        <input
+          type="text"
+          name="fullname"
+          placeholder="Your Fullname"
+          id="fullname"
+        />
+      </div>
+<br>
+      <div>
+        <label for="useremail">Enter Your Email</label>
+        <input type="email" placeholder="Your Email" id="useremail" />
+      </div>
+<br>
+      <div>
+        <label for="password">Enter Your Password</label>
+        <input type="password" placeholder="Your Password" id="password" />
+      </div>
+<br>
+      <div>
+        <label for="Phonenumber">Enter Your Telephone number</label>
+        <input type="tel" placeholder="Your Number" id="Phonenumber" />
+      </div>
+<br>
+      <div>
+        <label for="Userage">Enter your Age</label>
+        <input
+          type="number"
+          min="18"
+          max="85"
+          placeholder="Your Age"
+          id="Userage"
+        />
+      </div>
+<br>
+      <div>
+        <label for="complaint">What's your complaint</label>
+        <br />
+        <textarea rows="4" cols="50">Enter text here...</textarea>
+      </div>
+
+<br>
+
+      <input type="checkbox" id="terms" name="terms">
+      <label for="terms">I have read and agree with the terms abd condition</label>
+    </form>
+    
+<br>
+
+    <form>
+      <div class="question">
+        <strong>What's the capital of France?</strong>
+      </div>
+
+      <div>
+        <input type="radio" name="answer" value="madrid" id="opt1" />
+        <label for="opt1" class="option-box">A. Madrid</label>
+      </div>
+
+      <div>
+        <input type="radio" name="answer" value="paris" id="opt2" />
+        <label for="opt2" class="option-box">B. Paris</label>
+      </div>
+
+      <div>
+        <input type="radio" name="answer" value="rome" id="opt3" />
+        <label for="opt3" class="option-box">C. Rome</label>
+      </div>
+
+      <div>
+        <input type="radio" name="answer" value="berlin" id="opt4" />
+        <label for="opt4" class="option-box">D. Berlin</label>
+      </div>
+
+      <div>
+        <label for="clothes_singles">Choose a cloth:</label>
+        <select id="clothes_singles" name="clothe">
+          <option value="dolce">Dolce</option>
+          <option value="gucci">Gucci</option>
+          <option value="chanel">Chanel</option>
+          <option value="adidas">Adidas</option>
+          <option value="zara">Zara</option>
+          <option value="hermes">Hermes</option>
+          <option value="dior">Dior</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="clothes">Choose  clothes:</label>
+        <select id="clothes" name="clothes"  multiple>
+          <option value="dolce">Dolce</option>
+          <option value="gucci">Gucci</option>
+          <option value="chanel">Chanel</option>
+          <option value="adidas">Adidas</option>
+          <option value="zara">Zara</option>
+          <option value="hermes">Hermes</option>
+          <option value="dior">Dior</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </div>
+
+      <br>
+
+      <div>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <input type="submit" value="Submit">
+      </div>
+
+      <br>
+      <button type="submit">Submit 2nd Form</button>
+    </form>
+  </body>
+</html>
